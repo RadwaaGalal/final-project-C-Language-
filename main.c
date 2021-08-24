@@ -37,7 +37,7 @@ int print_menue()
 int main()
 {
   char message_array [100];
-  int option;
+  int option = -1;
   printf("Please enter message array: ");
   gets(message_array);
 
